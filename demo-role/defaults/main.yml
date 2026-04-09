@@ -1,0 +1,10 @@
+---
+# defaults file for demo-role
+
+# Docker installation settings
+docker_users: []
+docker_install_compose: true
+docker_compose_version: "v2.24.0"
+docker_edition: "ce"
+docker_package: "docker-{{ docker_edition }}"
+docker_service_name: "docker"
